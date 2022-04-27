@@ -131,7 +131,6 @@ function handleNewCommentSubmit(event) {
   .catch(err => {
     console.log(err);
   });
-  
 }
 
 function handleNewReplySubmit(event) {
@@ -174,7 +173,6 @@ function handleNewReplySubmit(event) {
       console.log(err);
     });
 }
-
 
 $backBtn.addEventListener('click', function() {
   window.history.back();
